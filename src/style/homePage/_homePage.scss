@@ -1,0 +1,23 @@
+.main {
+    height: 100vh;
+    background: url(background-top-view-banner-website.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+        color: orange;
+    }
+
+    .para {
+        padding: 1em;
+        margin: 1em;
+        color: orangered;
+    }
+    
+    p {
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+    }
+}

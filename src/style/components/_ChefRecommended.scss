@@ -1,0 +1,27 @@
+.Chef {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em;
+    margin: 1em;
+    gap: 5em;
+    background: #f8efe8;
+    h3 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+.orderbtn {
+    background: #b95f20;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 1em;
+    margin: 1em;
+    border: none;
+    cursor: pointer;
+}

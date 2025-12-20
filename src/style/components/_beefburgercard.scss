@@ -1,0 +1,21 @@
+.thecard {
+    padding: 1em;
+    margin: 1em;
+    h4 {
+       text-align: center; 
+       transform: translate(0, -2rem);
+    }
+    .p_a {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .burgercardbtn {
+        background: #33b62a;
+        border: none;
+        border-radius: .5em;
+        padding: .5em;
+        margin: .5em;
+        cursor: pointer;
+    }
+}
