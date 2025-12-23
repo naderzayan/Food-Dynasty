@@ -1,10 +1,10 @@
-import React from 'react'
-import '../style/components/_footer.scss'
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import "../style/components/_footer.scss";
+import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-        <footer className="footer">
+    <footer className="footer">
       <div className="footer__container">
         <div className="footer__brand">
           <h2>Food Dynasty</h2>
@@ -14,19 +14,27 @@ export default function Footer() {
         <div className="footer__links">
           <h4>Quick Links</h4>
           <ul>
-            <li><NavLink to='/homepage'>Home</NavLink></li>
-            <li><NavLink to='/menu'>Menu</NavLink></li>
-            <li><NavLink to='/branches'>Branches</NavLink></li>
-            <li><NavLink to='/contact'>Contact</NavLink></li>
+            <li>
+              <NavLink to="/homepage">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/menu">Menu</NavLink>
+            </li>
+            <li>
+              <NavLink to="/branches">Branches</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
           </ul>
         </div>
 
         <div className="footer__social">
           <h4>Follow Us</h4>
           <div className="footer__icons">
-            <a href="#">Facebook</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">GitHub</a>
+            <NavLink>Facebook</NavLink>
+            <NavLink>Instagram</NavLink>
+            <NavLink>Snapchat</NavLink>
           </div>
         </div>
       </div>
@@ -36,4 +44,4 @@ export default function Footer() {
       </div>
     </footer>
   );
-};
+}
