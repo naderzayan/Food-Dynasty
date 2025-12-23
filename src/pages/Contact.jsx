@@ -1,55 +1,46 @@
 import React from "react";
 import "../style/contact/_contact.scss";
 import Navbar from "../components/Navbar";
-import { IoCloudDownload } from "react-icons/io5";
+import Footer from "../components/Footer";
 
 export default function Contact() {
   return (
     <main className="mainOfContact">
       <Navbar />
-      <h1>LET’S ANSWER YOUR QUERIES</h1>
-      <div className="mainOfInputs">
+
+      <h1 className="contact-title">LET’S ANSWER YOUR QUERIES</h1>
+
+      <section className="mainOfInputs">
         <div className="inputs">
-          <div>
-            <p>Full Name</p>
-            <input type="text" />
+          <div className="input-group">
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your full name" />
           </div>
-          <div>
-            <p>Email-address</p>
-            <input type="email" name="" id="" />
+
+          <div className="input-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter your email" />
           </div>
-          <div>
-            <p>mobileNumber</p>
-            <input type="tel" name="" id="" />
-          </div>
-        </div>
-        <div className="inputs">
-          <p>Ask here</p>
-          <div>
-            <input type="text" />
-          </div>
-          <div>
-            <button type="submit" className="btn">
-              Submit
-            </button>
+
+          <div className="input-group">
+            <label>Mobile Number</label>
+            <input type="tel" placeholder="Enter your phone number" />
           </div>
         </div>
-      </div>
-      <div className="mainPartTwo">
-        <div>
-          <img
-            src="Left_Hand_Holding_Smartphone_Mockup-transformed 1.png"
-            alt=""
-          />
+
+        <div className="inputText">
+          <div className="input-group">
+            <label>Ask here</label>
+            <textarea placeholder="Write your message..." />
+          </div>
+
+          <button type="submit" className="btn">
+            Submit
+          </button>
         </div>
-        <div>
-          <h1>
-            <span>Download</span>
-            The App
-            <IoCloudDownload />
-          </h1>
-        </div>
-      </div>
+      </section>
+
+      <Footer />
     </main>
   );
 }

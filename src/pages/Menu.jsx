@@ -6,6 +6,7 @@ import PastaCard from '../components/PastaCard'
 import ChefRecommended from '../components/ChefRecommended'
 import { AiOutlineSearch } from "react-icons/ai";
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 
 export default function Menu() {
@@ -49,6 +50,7 @@ export default function Menu() {
               <PastaCard />
           </div>
           <ChefRecommended />
+          <Footer />
       </main>
   );
 }

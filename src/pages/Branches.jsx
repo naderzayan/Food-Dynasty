@@ -4,6 +4,7 @@ import MaadiBranch from '../components/MaadiBranch'
 import NasrCityBranch from '../components/NasrCityBranch'
 import '../style/branches/_branches.scss'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Branches() {
   return (
@@ -13,6 +14,7 @@ export default function Branches() {
           <NewCairoBranch />
           <MaadiBranch />
           <NasrCityBranch />
+          <Footer />
       </main>
   );
 }

@@ -1,26 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import '../style/components/_navbar.scss'
+import "../style/components/_navbar.scss";
 
 export default function Navbar() {
-    return (
-        <div>
-            <div className="navbar">
+  return (
+    <nav className="navbar">
+      <div className="food-dynasty">
+        <h1>Food Dynasty</h1>
+      </div>
 
-                <div className="food-dynasty">
-                    <img src="./Food-Dynasty.png" alt="" />
-                </div>
-
-                <div className="nav">
-                    <Link to={"/"}>Home</Link>
-                    <Link to={"/Menu"}>Menu</Link>
-                    <Link to={"/Branches"}>Branches</Link>
-                    <Link to={"/Contact"}>Contact</Link>
-                </div>
-                <div>
-                    <img src="\src\cart.png" alt="" />
-                </div>
-            </div>
-        </div>
-    );
+      <div className="nav">
+        <Link to="/">Home</Link>
+        <Link to="/Menu">Menu</Link>
+        <Link to="/Branches">Branches</Link>
+        <Link to="/Contact">Contact</Link>
+      </div>
+    </nav>
+  );
 }

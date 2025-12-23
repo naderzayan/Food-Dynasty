@@ -5,7 +5,8 @@
     padding: 3em;
     margin: 1em;
     gap: 5em;
-    background: #f8efe8;
+    background: #b95f20;
+    color: #fff;
     h3 {
         font-size: 30px;
         font-weight: bold;
@@ -15,13 +16,15 @@
     }
 }
 .orderbtn {
-    background: #b95f20;
+    background: orange;
     color: #fff;
+    border: 1px solid #fff;
+    border-radius: .5em;
     font-size: 20px;
     font-weight: bolder;
     width: fit-content;
-    padding: 1em;
-    margin: 1em;
+    padding: .3em;
+    margin: .2em;
     border: none;
     cursor: pointer;
 }
